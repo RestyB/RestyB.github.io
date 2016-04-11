@@ -1,2 +1,11 @@
 h1{color: #0000ff;}
 span{color: #ff0000;}
+marquee{background-image:url(
+"img.jpg");}
+#rebel{color:pink;
+text-decoration:
+line-through;}
+.unicorn{background-image:url(
+"nope.gif"); height: 500px;
+width: 500px;}
+#red{background-color: red;}
