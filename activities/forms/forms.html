@@ -2,13 +2,29 @@
 <head>
   <title>Working with Forms</title>
 </head>
-
 <body bgcolor="lightyellow">
   <form>
-    <b><font color="blue">Class Information</font></b><br> <label>Full Name :</label>
-    <input type="text" name="fullname" value=" " /><br> <label>E-Mail :</label> <input type=
-    "text" name="email" value=" " /><br> <label>Phone No. :</label> <input type="text" name=
-    "phone" value=" " /><br>
+    <b><font color="blue">Class Information</font></b>
+    <pre>
+Full Name : <input type="text" name="fullname" value=" " /><br />E-Mail : <input type=
+"text" name="email" value=" " /><br />Phone No. : <input type="text" name="phone" value=
+" " /><br />
+</pre><b><font color="blue">Enrollment</font></b><br />
+    In what session are you enrolled?<br />
+    <input type="radio" name="session" value="day" />Day session <input type="radio"
+    name="session" value="evening" />Evening session <input type="radio" name="session"
+    value="weekend" />Weekend session
+    <p>What are you? <select name="year" size="1">
+      <option selected="selected">
+        Joemel
+      </option>
+      <option>
+        Mally
+      </option>
+      <option>
+        Vogue
+      </option>
+    </select></p>
   </form>
 </body>
 </html>
