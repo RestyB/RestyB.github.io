@@ -14,7 +14,13 @@
         ctx.stroke();  //end drawing
         ctx.beginPath();  //start drawing
         ctx.arc(80,40,10,0,2*Math.PI); //draw smaller cirle (because circle above is bigger)
-        ctx.stroke();  //end drawing
+		ctx.stroke();  //end drawing
+		ctx.beginPath();
+		ctx.arc(110,40,10,0,2*Math.PI);
+        ctx.stroke();
+		ctx.beginPath();
+		ctx.arc(95,65,10,0,Math.PI);
+        ctx.stroke();
         ctx.closePath();
         </script>
     </body>
