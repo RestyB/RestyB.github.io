@@ -1,0 +1,121 @@
+/*header*/
+header{
+}
+header .intro-text{
+	padding-top:100px;
+	padding-bottom:50px
+	}
+header .intro-text .intro-head{
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:75px;
+	line-height:22px;
+	margin-bottom:25px
+	}
+header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px
+}
+header .intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px
+}
+header .intro-text .intro-head2{
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:30px;
+	line-height:50px;
+	margin-bottom:25px}
+header .intro-text{
+	padding-top:450px;padding-bottom:230px
+	}	
+/*about*/
+section h2.section-heading-image{
+	background-image:url(./images/banner.jpg);
+	font-size:40px;
+	margin-top:0;
+	margin-bottom:15px
+	padding-top:450px;padding-bottom:250px
+	}
+section h3.section-subheading{
+	font-size:16px;
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform:none;
+	font-style:bold;
+	font-weight:400;
+	margin-bottom:75px}
+	@media (min-width:768px){section{padding:150px 0}}
+/*about*/
+project .project-item .project-caption{
+	padding-top:450px;padding-bottom:200px
+	max-width:400px;
+	margin:0 auto;
+	background-color:#fff;
+	text-align:center;
+	padding:25px
+	}
+project.project-item .project-caption {
+	text-transform:none;
+	margin:0
+	
+	}
+project .project-item .project-caption {
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style:italic;
+	font-size:16px;
+	margin:0}
+project *{
+	z-index:2
+	}
+	@media (min-width:767px){
+project .project-item{
+	margin:0 0 30px
+	}
+	}
+	
+	/*teams*/
+
+	
+team{
+	background-image:url(./images/approve.gif);
+	background-repeat:none;
+	background-attachment:scroll;
+	background-position:center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;-o-background-size:cover;
+	text-align:center;
+	color:#fff}
+	
+}
+team .project-item .project-caption{
+	background-image:url(./images/approve.gif);
+	padding-top:450px;padding-bottom:200px
+	max-width:400px;
+	margin:0 auto;
+	background-color:#fff;
+	text-align:center;
+	padding:25px
+	}
+team.project-item .project-caption {
+	text-transform:none;
+	margin:0
+	
+	}
+team .project-item .project-caption {
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style:italic;
+	font-size:16px;
+	margin:0}
+team *{
+	z-index:2
+	}
+	@media (min-width:767px){
+team .project-item{
+	margin:0 0 30px
+	}
